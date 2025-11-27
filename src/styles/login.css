@@ -1,0 +1,111 @@
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827;
+  color: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-buttons .btn {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-buttons .btn:hover {
+  background: #1d4ed8;
+}
+
+/* Login Section */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: #f3f4f6;
+  min-height: 90vh;
+}
+
+.form-container {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+form input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Signup Link */
+.signup-link {
+  margin-top: 15px;
+  color: #374151;
+  font-size: 14px;
+}
+
+.link {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
